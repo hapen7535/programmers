@@ -1,5 +1,7 @@
 def solution(participant, completion):
     # 알파벳 순으로 문자열 정렬
+    #1개의 요소만 제외하고 모든 요소는 같아야한다.
+    #participant와 completion을 sort 한 후 for문을 돌리면서 다른 요소가 있는지 탐색
     participant.sort()
     completion.sort()
 
